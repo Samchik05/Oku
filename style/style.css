@@ -1,0 +1,454 @@
+@import url(fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-weight: 400;
+  }
+  a{
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+  }
+  .container{
+    max-width: 1340px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .header_nav{
+    padding: 30px 12px 22px 12px;
+    display: flex;
+  }
+  .header_left{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .header_left-list{
+    display: flex;
+    gap: 30px;
+  }
+  .header_intro-title{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;
+    letter-spacing: 0.29px;
+    display: flex;
+    align-items: center;
+    
+}
+.header_left-list-link{
+  color: rgb(19, 19, 20);
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  }
+  .button{
+    display: flex;
+    justify-content: space-between;
+    min-width: 240px;
+}
+.header_btn{
+    border: none;
+    padding: 0 33px;
+    min-height: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 0px 0px rgba(19, 19, 20, 0.22);
+    background: rgb(255, 255, 255);
+}
+.header_btn:hover{
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 25px 0 63px;
+}
+.intro_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro_title{
+    max-width: 437px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto';
+    font-size: 48px;
+    line-height: 62.4px;
+}
+.intro_btn{
+    border: none;
+    margin: 29px 0 23px;
+    max-width: 247px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 54px;
+    padding: 1px 48px;
+    transition: .3s;
+}
+.intro_btn:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.intro_more{
+    display: flex;
+    gap: 4px;
+}
+.intro_more-text{
+    color: rgb(70, 71, 78);
+    font-size: 13px;
+    line-height: 19.5px;
+}
+.intro_more-text:nth-child(2):hover{
+    color: black;
+}
+.bolan{
+  margin-top: 64px;
+}
+.bolan_cop{
+  position: relative;
+  border-radius: 8px;
+  background: rgb(243, 244, 244);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bolan_book{
+  position: absolute;
+  top: -17px;
+}
+.bolan_title{
+  margin: 65px 61px;
+  max-width: 476px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto';
+  font-size: 36px;
+  line-height: 46.8px;
+}
+.discover{
+  margin-top: 24px;
+}
+.discover_corp{
+  display: flex;
+  gap: 24px;
+}
+.corp-1, .corp-2{
+  max-width: 620px;
+  width: 100%;
+  border-radius: 8px;
+  background: rgb(243, 244, 244);
+  position: relative;
+}
+.corp-1_icon, .corp-2_icon{
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+}
+.corp-1_info{
+  display: flex;
+  flex-direction: column;
+  margin: 0 94px 88px 94px;
+}
+.corp-1_title, .corp-2_title{
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto';
+  font-size: 36px;
+  line-height: 46.8px;
+  text-align: center;
+}
+.corp-1_title{
+  margin: 63px 0 17px;
+}
+.corp-1_text{
+  color: rgb(70, 71, 78);
+  font-size: 16px;
+  line-height: 28.8px;
+  text-align: center;
+}
+.corp-2_info{
+  margin: 65px 95px 0 96px;
+  display: flex;
+  flex-direction: column;
+}
+.corp-2_text{
+  color: rgb(70, 71, 78);
+  font-size: 11px;
+  line-height: 28.8px;
+  text-align: center;
+  margin: 17px 0 34px;
+}
+.comon_on{
+  border-radius: 8px;
+  background: rgb(243, 244, 244);
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.comon_icon{
+  position: absolute;
+  top: -16px;
+}
+.comon_title{
+  max-width: 351px;
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto';
+  font-size: 36px;
+  line-height: 46.8px;
+  text-align: center;
+  margin: 65px 0 61px;
+}
+.state{
+  margin-top: 24px;
+}
+.state_off{
+  display: flex;
+  gap: 24px;
+}
+.state_box{
+  max-width: 620px;
+  width: 100%;
+  border-radius: 8px;
+  background: rgb(243, 244, 244);
+  padding-top: 65px;
+  position: relative;
+}
+.state_box-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.state_box-icon{
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+.state_box-title{
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 36px;
+  line-height: 46.8px;
+  text-align: center;
+  max-width: 238px;
+  margin-bottom: 31px;
+}
+.red{
+  margin-top: 127px;
+}
+.red_on{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.red_left{
+  max-width: 456px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.red_left-title{
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 48px;
+  line-height: 62.4px;
+}
+.red_left-text{
+  max-width: 408px;
+  color: rgb(70, 71, 78);
+  font-size: 17px;
+  line-height: 30.6px;
+}
+.red_right{
+  max-width: 456px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+.twitter_card{
+  padding: 25px;
+  border: 1px solid rgb(232, 232, 233);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+.twitter_card-head{
+  display: flex;
+  justify-content: space-between;
+}
+.twitter_card-nick{
+  display: flex;
+  gap: 16px;
+}
+.twitter__card-nick-col{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.twitter_card-nick-col-name{
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.6px;
+}
+.twitter_card-nick-col-user{
+  color: rgb(105, 120, 130);
+  font-size: 14px;
+  line-height: 15.4px;
+}
+
+.twitter_card-text,
+.twitter_card-text-1{
+  max-width: 362px;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  line-height: 20.63px;
+}
+.twitter_card-text{
+  margin: 16px 0 17px;
+}
+.text{
+  max-width: 348px;
+  font-size: 15px;
+  margin: 16px 0 22px;
+}
+.twitter_card-date{
+  color: rgb(105, 120, 130);
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 24px;
+}
+.meet_info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 145px;
+}
+.meet_title{
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto';
+  font-size: 48px;
+  line-height: 62.4px;
+  text-align: center;
+}
+.meet_text{
+  max-width: 705px;
+  color: rgb(70, 71, 78);
+  font-size: 17px;
+  line-height: 30.6px;
+  text-align: center;
+  margin: 28px 0 40px;
+}
+.meet_members{
+  display: flex;
+  gap: 37px;
+}
+.meet_member{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.meet_member img{
+  border: 2px dashed rgb(232, 232, 233);
+}
+.meet_member-title{
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  margin: 24px 0 3px;
+}
+.meet_member-text{
+  color: rgb(70, 71, 78);
+  font-size: 13px;
+  line-height: 23.4px;
+  text-align: center;
+}
+.footer{
+  background: rgb(246, 246, 246);
+  padding-bottom: 87px;
+  margin-top: 119px;
+}
+.footer_info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 81px 0 60px;
+}
+.footer_title{
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 48px;
+  line-height: 62.4px;
+}
+.footer_text{
+  color: rgb(70, 71, 78);
+  font-size: 17px;
+  line-height: 30.6px;
+  margin: 15px 0 4px;
+}
+.footer_text-1{
+  max-width: 444px;
+  color: rgb(70, 71, 78);
+  font-size: 11px;
+  line-height: 30.6px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.footer_button{
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  line-height: 54px;
+  padding: 1px 48px;
+  border: none;
+  transition: .3s;
+}
+.footer_button:hover{
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0); 
+}
+.footer_nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 64px;
+  
+}
+.footer_nav-list{
+  display: flex;
+  gap: 24px;
+}
+.footer_nav-link{
+  color: rgb(19, 19, 20);
+  font-size: 14px;
+  line-height: 17px;
+}
+.footer_nav-link:hover{
+  text-shadow: 2px 0px 3px rgba(148,135,135,0.51);
+}
+.footer_nav-text{
+  color: rgb(70, 71, 78);
+  font-size: 13px;
+  line-height: 23.4px;
+}

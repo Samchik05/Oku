@@ -1,0 +1,79 @@
+/* 
+1399,98
+1199,98
+991,98
+767,98
+575,98 
+*/
+
+@media (max-width: 1199.98px){
+    .discover_corp{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .state_off{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bolan_clain{
+        max-width: 100%;
+    }
+    .comon_img{
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 1035.98px){
+   .intro{
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+}
+@media (max-width: 991.98px){
+    .red_on{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .red_right{
+        padding: 30px;
+    }
+    .kar_1{
+        max-width: 100%;
+    }
+}
+@media (max-width: 767.98px){
+    .header_left{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    }
+    .meet_members{
+        flex-direction: column;
+    }
+    .footer_nav{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    }
+    .corp-1_img, .corp-2_img{
+        max-width: 100%;
+    }
+    .corp-1_icon, .corp-2_img{
+        max-width: 100%;
+    }
+    .bolan_book{
+        max-width: 100%;
+    }
+    .state_box-img{
+        max-width: 100%;
+    }
+    .state_box-icon{
+        max-width: 100%;
+    }
+}
+@media (max-width: 575.98px){
+    .intro_btn{
+        font-size: 14px;
+    }
+}
