@@ -18,14 +18,16 @@
     padding: 0 15px;
     margin: 0 auto;
   }
-  .header_nav{
-    padding: 30px 12px 22px 12px;
+  .header_nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    border-bottom: 2px solid rgb(229, 229, 229);
   }
   .header_left{
     display: flex;
-    justify-content: space-between;
-    gap: 50px;
+    gap: 32px;
   }
   .header_left-list{
     display: flex;
@@ -55,7 +57,6 @@
     display: flex;
     justify-content: space-between;
     min-width: 240px;
-    backedraund: black;
 }
 .header_btn{
     border: none;
